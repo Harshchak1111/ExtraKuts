@@ -1,0 +1,172 @@
+/* Global reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #1f1f1f;
+}
+
+.logo {
+  width: 120px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+  background: url('assets/pexel.jpg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero h1 span {
+  color: #00bcd4;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+/* Features */
+.features {
+  padding: 40px 10%;
+  background-color: #1a1a1a;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.features ul {
+  list-style: none;
+  text-align: center;
+}
+
+.features ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Gallery */
+.gallery {
+  padding: 40px 10%;
+  background-color: #232323;
+}
+
+.gallery h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-images img {
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+/* Upload Section */
+.upload {
+  padding: 40px 10%;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.upload input, .upload button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.upload button {
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Contact Section */
+.contact {
+  padding: 40px 10%;
+  background-color: #232323;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact input, .contact textarea, .contact button {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #00bcd4;
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f1f;
+  color: #aaa;
+}
